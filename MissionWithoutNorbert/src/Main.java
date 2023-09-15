@@ -60,7 +60,7 @@ public class Main {
 	        	if (rightSide <= 2 || leftSide <= 2) {
 					number = (int)(Math.random() * 1) + 1;
 				} else {
-					System.out.println("Wie viel Minions möchtest du ziehen?");
+					System.out.println("Wie viele Minions möchtest du ziehen?");
 					number = (int)(Math.random() * 3) + 1;
 					if (number > 3) {
 						System.out.println("Sie dürfen maximal 3 Minions ziehen.");
